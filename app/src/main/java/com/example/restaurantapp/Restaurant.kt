@@ -10,4 +10,5 @@ data class Restaurant(
     val title: String,
     @SerializedName("r_description")
     val description: String,
-    var isFavourite: Boolean = false)
+    var isFavourite: Boolean = false
+)
